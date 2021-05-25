@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test de gestion des événements</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <a href="" id="inner">Un lien cliquable</a>
+        <span id="to-clone">Un texte qui va se dupliquer quand on clic dessus.</span>
+    </div>
+
+    <form class="form">
+        <label for="email">Email</label>
+        <input type="email" id="email">
+
+        <div>
+            <input type="radio" name="test" id="radio-1" value="premier">
+            <label for="radio-1">Un premier</label>
+        </div>
+        <div>
+            <input type="radio" name="test" id="radio-2" value="second">
+            <label for="radio-2">Un second</label>
+        </div>
+
+        <button>Valider</button>
+    </form>
+
+    <div id="form-result"></div>
+    <script src="2-event.js"></script>
+</body>
+
+</html>
